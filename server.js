@@ -28,10 +28,11 @@ io.on("connection", (socket) => {
     });
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 server.listen(PORT, '0.0.0.0', () => {
     console.log(`🚀 السيرفر يعمل على http://0.0.0.0:${PORT}`);
 });
+
 
 
 // server.listen(3000, () => {
